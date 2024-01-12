@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio</title>
+</head>
+<body onload="resultado()">
+    <main>
+        <header>
+            <h1>Segundo Desafio do Felipão</h1>
+            <h2>Verificar Ranking dos Heróis</h2>
+        </header>
+        <section>
+            <h2>Escolha um Herói</h2>
+            <div id="form">
+                <select id="txtNome">
+                    <option value="">Selecione o Herói</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Capitão América">Capitão América</option>
+                    <option value="Homem de Ferro">Homem de Ferro</option>
+                    <option value="Pantera Negra">Pantera Negra</option>
+                    <option value="Hulk">Hulk</option>
+                    <option value="Homem Aranha">Homem Aranha</option>
+                    <option value="Surfista Prateado">Surfista Prateado</option>
+                </select>
+                <button class="custom-btn btn-1" id="verificar" onclick="verificar()">Verificar</button>
+            </div>
+            <div id="resRanking">Resposta do Ranking</div>
+            <div id="res">Resposta do Heroi</div>
+            <div id="btnInicio"><button class="custom-btn btn-1" onclick="reload()">Início</button></div>
+        </section>
+        <footer>OAS-Web-Design</footer>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
