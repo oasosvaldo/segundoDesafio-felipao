@@ -13,7 +13,7 @@ header {
 
 section {
     background: #ababee;
-    width: 400px;
+    width: 480px;
     margin: auto;
     padding: 15px;
     border-radius: 10px;
@@ -86,7 +86,7 @@ footer {
 }
 
 #res {
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;

@@ -9,8 +9,8 @@ function verificar() {
     let saldo = vitorias - derrotas 
     if (saldo <= 10) {   
       ranking = "Ferro"     
-      resRanking.innerHTML = "O " + nomeHeroi.value + " tem " + vitorias + " vitórias e " + derrotas + " derrotas "
-      res.innerHTML = "O " + nomeHeroi.value + " está no Ranking " + ranking
+      resRanking.innerHTML = `O <strong>${nomeHeroi.value}</strong> tem ${vitorias} vitórias e ${derrotas} derrotas`
+      res.innerHTML = `O <strong>${nomeHeroi.value}</strong> está no Ranking ${ranking}` 
     } else if (saldo > 10 && saldo <= 20) {
       ranking = "Bronze"     
       resRanking.innerHTML = "O " + nomeHeroi.value + " tem " + vitorias + " vitórias e " + derrotas + " derrotas "
